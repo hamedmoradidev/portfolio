@@ -14,7 +14,7 @@ export default function Home() {
         <Nav />
         <Content />
         <img className='hidden lg:block z-20 h-4/5 absolute bottom-0 right-40' src={me1} alt="" />
-        <img className='lg:hidden z-20 h-4/5 absolute bottom-0 right-0 object-contain' src={me2} alt="" />
+        <img className='lg:hidden z-20 h-4/5 absolute bottom-0 right-0 object-cover' src={me2} alt="" />
         </div>
     </>
   )
