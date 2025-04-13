@@ -22,12 +22,12 @@ export default function Portfolio() {
         </div>
       </div>
       <div className="flex flex-wrap *:cursor-pointer">
-        <a className="hidden md:block w-1/3 h-1/2 overflow-hidden" href="https://github.com/hamedmoradidev/msi"><img className="filter brightness-50" src={msi} alt="" /></a>
-        <a className="w-full md:w-1/3 h-1/2 overflow-hidden" href="https://github.com/hamedmoradidev/trufru"><img className="filter brightness-50" src={trufru} alt="" /></a>
-        <a className="w-full md:w-1/3 h-1/2 overflow-hidden" href="https://github.com/hamedmoradidev/wildthingz"><img className="filter brightness-50" src={wildthingz} alt="" /></a>
-        <a className="hidden md:block w-1/3 h-1/2 overflow-hidden" href="https://github.com/hamedmoradidev/logitech"><img className="filter brightness-50" src={logitech} alt="" /></a>
-        <a className="hidden md:block w-1/3 h-1/2 overflow-hidden" href="https://github.com/hamedmoradidev/penstore"><img className="filter brightness-50" src={penstore} alt="" /></a>
-        <a className="w-full md:w-1/3 h-1/2 overflow-hidden" href="https://github.com/hamedmoradidev/motionarray"><img className="filter brightness-50" src={motionarray} alt="" /></a>
+        <a target="_blank" className="hidden md:block w-1/3 h-1/2 overflow-hidden" href="https://github.com/hamedmoradidev/msi"><img className="filter brightness-50" src={msi} alt="" /></a>
+        <a target="_blank" className="w-full md:w-1/3 h-1/2 overflow-hidden" href="https://github.com/hamedmoradidev/trufru"><img className="filter brightness-50" src={trufru} alt="" /></a>
+        <a target="_blank" className="w-full md:w-1/3 h-1/2 overflow-hidden" href="https://github.com/hamedmoradidev/wildthingz"><img className="filter brightness-50" src={wildthingz} alt="" /></a>
+        <a target="_blank" className="hidden md:block w-1/3 h-1/2 overflow-hidden" href="https://github.com/hamedmoradidev/logitech"><img className="filter brightness-50" src={logitech} alt="" /></a>
+        <a target="_blank" className="hidden md:block w-1/3 h-1/2 overflow-hidden" href="https://github.com/hamedmoradidev/penstore"><img className="filter brightness-50" src={penstore} alt="" /></a>
+        <a target="_blank" className="w-full md:w-1/3 h-1/2 overflow-hidden" href="https://github.com/hamedmoradidev/motionarray"><img className="filter brightness-50" src={motionarray} alt="" /></a>
       </div>
       <div className="bg-project-dark-gray-first flex justify-center items-center">
         <p className="text-[20px] my-5 font-semibold">And many more to come!</p>
