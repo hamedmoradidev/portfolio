@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    src: url("../src/font/Montserrat-VariableFont_wght.ttf") format("ttf");
+  }  
+@font-face {
+    font-family: Raleway;
+    font-style: normal;
+    src: url("../src/font/Raleway-VariableFont_wght.ttf") format("ttf");
+  } 
+@theme {
+    --color-project-black-first: #000000;
+    --color-project-white-first: #FFFFFF;
+    --color-project-light-gray-first: #8B8B8B;
+    --color-project-white-second: #FFFBFB;
+    --color-project-dark-gray-first: #1A1A1A;
+    --color-project-dark-gray-second: #C4C4C4;
+    --color-project-dark-gray-third: #909090;
+    --color-project-light-gray-home: #D7D7D7;
+    --font-project-Montserrat: "Montserrat", sans-serif;
+    --font-project-Raleway: "Raleway", sans-serif;
+
+}
