@@ -9,7 +9,7 @@ import linkedinwhite from './images/linkedinwhite.png'
 export default function Content() {
 
   return (
-    <div className='font-project-Raleway w-full lg:flex-wrap lg:w-1/2 lg:mx-30 lg:mt-20 z-30 absolute lg:static bottom-0 left-0 lg:px-0 px-10 flex justify-between items-baseline-last lg:items-center py-10 backdrop-contrast-75 lg:backdrop-filter-none bg-blend-darken'>
+    <div className='font-project-Raleway w-full lg:flex-wrap lg:w-1/2 lg:mx-30 lg:mt-20 z-30 absolute lg:static bottom-0 left-0 lg:px-0 px-10 py-20 flex justify-between items-baseline-last lg:items-center backdrop-contrast-75 lg:backdrop-filter-none bg-blend-darken'>
         <div className='flex flex-wrap gap-2'>
         <p className='w-full text-3xl lg:text-4xl 2xl:text-[58px] font-bold text-white lg:text-project-black-first z-50'>Hi, I am</p>
         <h1 className='w-full text-4xl lg:w-6xl 2xl:text-[80px] font-bold text-white lg:text-project-black-first z-50'>Hamed Moradi</h1>
